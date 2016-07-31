@@ -16,6 +16,4 @@ task compileTest(dependsOn: compile) << {
     println 'compiling unit tests'
 }
 
-task test(dependsOn: [compile, compileTest]) << {
-    println 'running unit tests'
-}
+
